@@ -8,7 +8,7 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)s %(message)s",
     filename="/tmp/youtube_viewer.log",
     filemode="a",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger(__name__)
 
