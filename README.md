@@ -1,7 +1,5 @@
 # Simple web server to watch youtube videos without recommendations
 
-Getting rid of my bad habits :D
-
 Example route -
 http://127.0.0.1:5005/?url=https://www.youtube.com/watch?v=AOzy44b2gko
 
