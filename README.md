@@ -8,6 +8,7 @@ Original video - https://www.youtube.com/watch?v=AOzy44b2gko
 ![](screenshots/route_example.png)
 
 Can be used with neswboat RSS reader as a youtube video player by using this macro:
+
 For Mac OS users:
 ```
 macro o set browser "open http://127.0.0.1:5005?url=%u"; open-in-browser ; set browser "open %u"
