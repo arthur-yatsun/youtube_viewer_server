@@ -19,7 +19,7 @@ VIDEO_ID_REGEX = re.compile(r"v=([0-9A-Za-z_-]{11}).*")
 
 @app.route("/")
 def index():
-    youtube_url = request.args.get("url")
+    youtube_url = request.args.get("url", "")
     supposed_video_ids = VIDEO_ID_REGEX.findall(youtube_url)
 
     if not supposed_video_ids:
